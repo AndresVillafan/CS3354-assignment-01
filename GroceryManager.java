@@ -15,13 +15,13 @@ public class GroceryManager {
     itemPrices[0] = 3.50;
     itemStocks[0] = 5;
 
-    itemNames[0] = "Bread";
-    itemPrices[0] = 5.00;
-    itemStocks[0] = 10;
+    itemNames[1] = "Bread";
+    itemPrices[1] = 5.00;
+    itemStocks[1] = 10;
 
-    itemNames[0] = "Milk";
-    itemPrices[0] = 6.00;
-    itemStocks[0] = 20;
+    itemNames[2] = "Milk";
+    itemPrices[2] = 6.00;
+    itemStocks[2] = 20;
 
     
   }
