@@ -9,6 +9,20 @@ public class GroceryManager {
     String[] itemNames = new String[10];
     double[] itemPrices = new double[10];
     int[] itemStocks = new int[10];
+
+    // Created inventory items for testing display and restock options.
+    itemNames[0] = "Eggs";
+    itemPrices[0] = 3.50;
+    itemStocks[0] = 5;
+
+    itemNames[0] = "Bread";
+    itemPrices[0] = 5.00;
+    itemStocks[0] = 10;
+
+    itemNames[0] = "Milk";
+    itemPrices[0] = 6.00;
+    itemStocks[0] = 20;
+
     
   }
 }
