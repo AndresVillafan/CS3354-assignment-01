@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * Grocery management system using parallel arrays.
  */
