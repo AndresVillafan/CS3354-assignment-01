@@ -67,6 +67,12 @@ When viewing the inventory, the program displays each item's name, price, and cu
 - Exit option
 - Invalid menu choice handling
 
+## Contributors 
+- Lauren Castro
+- Andres Villafan 
+- Taylor Gabrysch
+- Ernesto Jaimes
+- Troy R Mathis
 
 ### UML section
 
