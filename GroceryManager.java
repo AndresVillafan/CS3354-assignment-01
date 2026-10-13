@@ -28,7 +28,7 @@ public class GroceryManager {
           System.out.print("Item: Unknown, ");
 
         if (prices[i] >= 0.01)
-          System.out.print("Price: " + prices[i] + ", ");
+          System.out.printf("Price: $%.2f, ", prices[i]);
         else
           System.out.print("Price: Unknown, ");
 
