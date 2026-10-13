@@ -48,6 +48,10 @@ public class GroceryManager {
    *               add to target item
    */
   public static void restockItem(String[] names, int[] stocks, String target, int amount) {
+    if (amount <= 0) {
+    System.out.println("Please enter a positive amount.");
+    return;
+}
     for (int i = 0; i < names.length; i++) {
       if (names[i] != null && names[i].equalsIgnoreCase(target)) {
         int currentCount = stocks[i];
