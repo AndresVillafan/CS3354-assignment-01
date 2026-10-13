@@ -38,7 +38,7 @@ public class GroceryManager {
   }
 
   /**
-   * Allows user to update the amount of stock a given item has
+   * Allows user to update the amount of stock a given item has. Rejects zero or negative amounts.
    * 
    * @param names  Passed from main, list of items
    * @param stocks Passed from main, current amount of each item
@@ -47,6 +47,7 @@ public class GroceryManager {
    * @param amount Passed from user, the amount of stock the user would like to
    *               add to target item
    */
+
   public static void restockItem(String[] names, int[] stocks, String target, int amount) {
     if (amount <= 0) {
     System.out.println("Please enter a positive amount.");
